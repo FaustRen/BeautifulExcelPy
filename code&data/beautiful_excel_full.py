@@ -1,8 +1,5 @@
 #%%
 import pandas as pd
-import numpy as np
-import xlsxwriter
-from IPython.display import display
 import openpyxl
 from openpyxl.utils.dataframe import dataframe_to_rows
 from openpyxl.styles import Font
