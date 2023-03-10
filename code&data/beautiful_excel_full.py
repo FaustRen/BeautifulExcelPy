@@ -47,5 +47,5 @@ def beautifulWorkbook(data_input,output_filename,font_type='Arial'):
     # 儲存Excel檔案
     writer.save()
 # %%
-beautifulWorkbook(df, save_name,fon_setting)
+beautifulWorkbook(df, save_name,font_setting)
 # %%
