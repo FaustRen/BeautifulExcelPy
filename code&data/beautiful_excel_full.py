@@ -8,6 +8,8 @@ from openpyxl.utils import get_column_letter
 
 # read csv data
 path="./Hotel Reservations.csv"
+font_setting="Arial"
+save_name="test_excel_haha.xlsx"
 # path="./csv檔案路徑"
 df = pd.read_csv(path)
 
@@ -45,5 +47,5 @@ def beautifulWorkbook(data_input,output_filename,font_type='Arial'):
     # 儲存Excel檔案
     writer.save()
 # %%
-beautifulWorkbook(df, "test_excel_haha.xlsx","Arial")
+beautifulWorkbook(df, save_name,fon_setting)
 # %%
